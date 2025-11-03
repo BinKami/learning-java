@@ -14,6 +14,5 @@ public class Main {
         int age = scanner.nextInt();
 
         System.out.println("Witaj " + firstname + " " + lastname + ". Masz " + age + " lat." );
-
     }
 }
