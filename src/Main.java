@@ -1,18 +1,19 @@
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Jak masz na imię?");
-        String name = scanner.nextLine();
+        System.out.print("Podaj swoje imię: ");
+        String firstname = scanner.nextLine();
 
-        System.out.println("Ile masz lat?");
+        System.out.print("Podaj swoje nazwisko: ");
+        String lastname = scanner.nextLine();
+
+        System.out.print("Podaj swój wiek: ");
         int age = scanner.nextInt();
 
-        System.out.println("Cześć " + name + " !. Masz " + age
-                + " lat!");
+        System.out.println("Witaj " + firstname + " " + lastname + ". Masz " + age + " lat." );
+
     }
 }
